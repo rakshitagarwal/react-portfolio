@@ -1,0 +1,87 @@
+{
+  "profile": {
+    "name": "Rakshit Agarwal",
+    "title": "Software Engineer",
+    "initials": "RA",
+    "heroBio": "I am a full-stack software engineer based in Ahmedabad, specializing in React, Next.js, and Node.js. I build scalable web applications across fintech, healthcare, and event platforms — from real-time auction systems to patient portals and payment integrations. I focus on clean architecture, automated CI/CD, and delivering measurable impact for users and teams.",
+    "aboutBio": "I hold a B.Tech in Computer Science from ABES Engineering College (2019) and have spent my career building production-grade web applications at companies including Globalvox, Arsenaltech, Yudiz Solutions, and Brainerhub Solutions. My work spans frontend architecture with React and Next.js, backend APIs with Node.js and Express, and databases including MySQL and MongoDB. I thrive on solving complex problems — whether that is reducing deployment time with CI/CD pipelines, cutting check-in times with barcode scanning, or architecting multi-tier fintech platforms. Outside of work, I created and managed a YouTube channel focused on the technical side of content creation, which sharpened my communication skills and passion for sharing knowledge."
+  },
+  "contact": {
+    "location": "Ahmedabad, Gujarat",
+    "phone": "+91 9997443874",
+    "email": "rakshit.agarwal@outlook.com"
+  },
+  "social": [
+    {
+      "platform": "linkedin",
+      "url": "https://linkedin.com/in/rakshitagarwal"
+    },
+    {
+      "platform": "github",
+      "url": "https://github.com/rakshitagarwal"
+    },
+    {
+      "platform": "whatsapp",
+      "url": "https://wa.me/+919997443874"
+    }
+  ],
+  "technologies": ["react", "nextjs", "nodejs", "mongodb", "mysql", "tailwind"],
+  "experiences": [
+    {
+      "year": "May 2025 – Present",
+      "role": "Software Engineer",
+      "company": "Brainerhub Solutions",
+      "location": "Ahmedabad, Gujarat",
+      "highlights": [
+        "Architected an end-to-end fintech platform serving financial advisors across 3+ client portfolio tiers, reducing manual transaction processing time by 40%",
+        "Integrated Stripe payment gateway and DocuSign-style electronic signature, cutting document turnaround from days to under 2 hours",
+        "Launched a Next.js full-stack application with automated CI/CD pipeline, reducing deployment time by 60% and eliminating manual release errors",
+        "Consolidated API logic and database setup into a single Next.js codebase, decreasing cross-team onboarding time by 30%"
+      ]
+    },
+    {
+      "year": "Dec 2024 – Apr 2025",
+      "role": "Web Developer",
+      "company": "Yudiz Solutions",
+      "location": "Ahmedabad, Gujarat",
+      "highlights": [
+        "Led frontend development of an event listing platform and admin portal, increasing admin task efficiency for 5+ concurrent event workflows",
+        "Delivered core features for Booklit ticketing platform — payment processing, analytics dashboards — supporting 1,000+ ticket transactions",
+        "Introduced automated barcode scanning for ticket validation, cutting check-in time by 50% and reducing queue wait times",
+        "Optimized server-side rendered event booking site with Next.js and React, improving page load speed by 35%"
+      ]
+    },
+    {
+      "year": "Apr 2024 – Nov 2024",
+      "role": "Software Engineer",
+      "company": "Arsenaltech",
+      "location": "Ahmedabad, Gujarat",
+      "highlights": [
+        "Spearheaded frontend architecture for Bering Health patient portal, serving 10,000+ users with seamless React and Next.js experiences",
+        "Built multi-step patient onboarding flows with embedded video consultations, reducing drop-off rate by 25% and improving admin visibility",
+        "Implemented API integration layer using Redux Toolkit and custom React hooks, cutting state management bugs by 40%",
+        "Established code quality standards and PR review practices, reducing post-release defects by 30% across a team of 4 engineers"
+      ]
+    },
+    {
+      "year": "Feb 2023 – Mar 2024",
+      "role": "Software Engineer",
+      "company": "Globalvox",
+      "location": "Ahmedabad, Gujarat",
+      "highlights": [
+        "Delivered full-stack development for Bigdeal auction platform and Bridge Invest financial portal, handling 500+ concurrent users",
+        "Designed core auction mechanics with member-exclusive workflows, enabling real-time bidding with sub-200ms transaction response times",
+        "Built a scalable Node.js backend with Redis caching and Socket.io, supporting live bid updates across 100+ simultaneous auction rooms"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Sales Dashboard",
+      "imageKey": "project-1",
+      "description": "Developed a comprehensive admin dashboard for e-commerce operations, featuring real-time sales analytics, customer management, and transaction tracking with interactive data visualizations.",
+      "technologies": ["React", "Node.js", "Express", "MongoDB"],
+      "liveUrl": null
+    }
+  ]
+}
