@@ -4,7 +4,10 @@
     "title": "Full Stack Software Engineer",
     "initials": "RA",
     "heroBio": "MERN-stack engineer with 3+ years building high-traffic products in fintech, healthcare, and events. I've shipped platforms serving 10,000+ users, processing 1,000+ payments, and handling 500+ concurrent sessions — with measurable wins like 60% faster deploys, 40% less manual processing, and sub-200ms real-time bidding.",
-    "aboutBio": "B.Tech in Computer Science (ABES Engineering College, 2019). I've progressed from real-time auction systems at Globalvox to fintech architecture at Brainerhub — owning the full stack across React, Next.js, Node.js, Angular, and databases from MongoDB to PostgreSQL. I don't just write features: I've led frontend for healthcare and event products, integrated Stripe and Razorpay payment flows, built CI/CD pipelines that eliminated manual releases, and set PR standards that cut defects by 30% on a 4-engineer team. Strong in system design, API integration, and shipping under production pressure. I also run a technical YouTube channel — I believe great engineers communicate as clearly as they code."
+    "aboutBio": [
+      "B.Tech in Computer Science (ABES Engineering College, 2019). I've progressed from real-time auction systems at Globalvox to fintech architecture at Brainerhub — owning the full stack across React, Next.js, Node.js, Angular, and databases from MongoDB to PostgreSQL.",
+      "I don't just write features: I've led frontend for healthcare and event products, integrated Stripe and Razorpay payment flows, built CI/CD pipelines that eliminated manual releases, and set PR standards that cut defects by 30% on a 4-engineer team. Strong in system design, API integration, and shipping under production pressure. I also run a technical YouTube channel — I believe great engineers communicate as clearly as they code."
+    ]
   },
   "contact": {
     "location": "Ahmedabad, Gujarat",
@@ -39,12 +42,8 @@
       "items": ["mongodb", "mysql", "postgres", "redis", "firebase", "neondb"]
     },
     {
-      "name": "DevOps",
-      "items": ["docker"]
-    },
-    {
       "name": "Developer Tools",
-      "items": ["git", "postman", "jira", "bitbucket", "gitlens"]
+      "items": ["git", "postman", "jira", "bitbucket", "gitlens", "docker"]
     }
   ],
   "experiences": [
@@ -102,7 +101,40 @@
       "imageKey": "project-1",
       "description": "End-to-end MERN admin dashboard for e-commerce — live sales KPIs, customer management, order tracking, and interactive charts in one place. Replaces scattered spreadsheets and gives operators instant visibility into revenue and customer behavior.",
       "technologies": ["React", "Node.js", "Express", "MongoDB"],
-      "liveUrl": null
+      "liveUrl": null,
+      "codeUrl": null
+    },
+    {
+      "title": "Sales Dashboard",
+      "imageKey": "project-2",
+      "description": "End-to-end MERN admin dashboard for e-commerce — live sales KPIs, customer management, order tracking, and interactive charts in one place. Replaces scattered spreadsheets and gives operators instant visibility into revenue and customer behavior.",
+      "technologies": ["React", "Node.js", "Express", "MongoDB"],
+      "liveUrl": null,
+      "codeUrl": null
+    },
+    {
+      "title": "Sales Dashboard",
+      "imageKey": "project-3",
+      "description": "End-to-end MERN admin dashboard for e-commerce — live sales KPIs, customer management, order tracking, and interactive charts in one place. Replaces scattered spreadsheets and gives operators instant visibility into revenue and customer behavior.",
+      "technologies": ["React", "Node.js", "Express", "MongoDB"],
+      "liveUrl": null,
+      "codeUrl": null
+    },
+    {
+      "title": "Sales Dashboard",
+      "imageKey": "project-4",
+      "description": "End-to-end MERN admin dashboard for e-commerce — live sales KPIs, customer management, order tracking, and interactive charts in one place. Replaces scattered spreadsheets and gives operators instant visibility into revenue and customer behavior.",
+      "technologies": ["React", "Node.js", "Express", "MongoDB"],
+      "liveUrl": null,
+      "codeUrl": null
+    },
+    {
+      "title": "Sales Dashboard",
+      "imageKey": "project-1",
+      "description": "End-to-end MERN admin dashboard for e-commerce — live sales KPIs, customer management, order tracking, and interactive charts in one place. Replaces scattered spreadsheets and gives operators instant visibility into revenue and customer behavior.",
+      "technologies": ["React", "Node.js", "Express", "MongoDB"],
+      "liveUrl": null,
+      "codeUrl": null
     }
   ]
 }

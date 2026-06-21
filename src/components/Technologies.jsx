@@ -83,16 +83,22 @@ const Technologies = () => {
                 const { Icon, className, label } = config;
 
                 return (
-                  <motion.div
-                    key={tech}
-                    variants={iconVariants(2 + index * 0.3)}
-                    initial="initial"
-                    animate="animate"
-                    title={label}
-                    className="rounded-2xl border-4 border-neutral-800 p-3"
-                  >
-                    <Icon className={className} aria-label={label} />
-                  </motion.div>
+                  <div key={tech} className="group relative">
+                    <motion.div
+                      variants={iconVariants(2 + index * 0.3)}
+                      initial="initial"
+                      animate="animate"
+                      className="rounded-2xl border-4 border-neutral-800 p-3"
+                    >
+                      <Icon className={className} aria-hidden="true" />
+                    </motion.div>
+                    <span
+                      role="tooltip"
+                      className="pointer-events-none absolute -top-9 left-1/2 z-10 -translate-x-1/2 whitespace-nowrap rounded-md bg-neutral-800 px-2.5 py-1 text-xs font-medium text-neutral-200 opacity-0 shadow-lg transition-opacity duration-200 group-hover:opacity-100"
+                    >
+                      {label}
+                    </span>
+                  </div>
                 );
               })}
             </div>

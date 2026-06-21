@@ -1,5 +1,5 @@
-import { IMAGES, SOCIAL } from "../constants";
-import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
+import { IMAGES, RESUME, SOCIAL } from "../constants";
+import { FaLinkedin, FaGithub, FaWhatsapp, FaDownload } from "react-icons/fa";
 
 const socialIcons = {
   linkedin: FaLinkedin,
@@ -10,8 +10,15 @@ const socialIcons = {
 const Navbar = () => {
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
-      <div className="flex flex-shrink-0 items-center">
-        <img className="mx-2 w-10" src={IMAGES.logo} alt="" />
+      <div className="flex flex-shrink-0 items-center gap-4">
+        <a
+          href={RESUME.url}
+          download={RESUME.fileName}
+          aria-label="Download resume"
+          className="text-2xl transition-colors hover:text-cyan-400"
+        >
+          <FaDownload />
+        </a>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         {SOCIAL.map(({ platform, url }) => {

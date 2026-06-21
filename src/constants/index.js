@@ -6,6 +6,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import resumePdf from "../assets/cv/Rakshit_Agarwal.pdf";
 
 const imageMap = {
   "project-1": project1,
@@ -25,6 +26,10 @@ export const IMAGES = {
   profile: profileImage,
   about: aboutImage,
   logo: logoImage,
+};
+export const RESUME = {
+  url: resumePdf,
+  fileName: "Rakshit_Agarwal_Resume.pdf",
 };
 export const PROJECTS = content.projects.map((project) => ({
   ...project,
