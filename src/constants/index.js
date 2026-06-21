@@ -1,6 +1,6 @@
 import content from "../data/portfolio.json";
-import profileImage from "../assets/kevinRushProfile.png";
-import aboutImage from "../assets/about.jpg";
+import profileImage from "../assets/main.png";
+import aboutImage from "../assets/secondary.jpg";
 import logoImage from "../assets/kevinRushLogo.png";
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
@@ -19,7 +19,7 @@ export const HERO_CONTENT = content.profile.heroBio;
 export const ABOUT_TEXT = content.profile.aboutBio;
 export const CONTACT = content.contact;
 export const SOCIAL = content.social;
-export const TECHNOLOGIES = content.technologies;
+export const TECHNOLOGY_CATEGORIES = content.technologyCategories;
 export const EXPERIENCES = content.experiences;
 export const IMAGES = {
   profile: profileImage,

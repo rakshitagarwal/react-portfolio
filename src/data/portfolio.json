@@ -1,10 +1,10 @@
 {
   "profile": {
     "name": "Rakshit Agarwal",
-    "title": "Software Engineer",
+    "title": "Full Stack Software Engineer",
     "initials": "RA",
-    "heroBio": "I am a full-stack software engineer based in Ahmedabad, specializing in React, Next.js, and Node.js. I build scalable web applications across fintech, healthcare, and event platforms — from real-time auction systems to patient portals and payment integrations. I focus on clean architecture, automated CI/CD, and delivering measurable impact for users and teams.",
-    "aboutBio": "I hold a B.Tech in Computer Science from ABES Engineering College (2019) and have spent my career building production-grade web applications at companies including Globalvox, Arsenaltech, Yudiz Solutions, and Brainerhub Solutions. My work spans frontend architecture with React and Next.js, backend APIs with Node.js and Express, and databases including MySQL and MongoDB. I thrive on solving complex problems — whether that is reducing deployment time with CI/CD pipelines, cutting check-in times with barcode scanning, or architecting multi-tier fintech platforms. Outside of work, I created and managed a YouTube channel focused on the technical side of content creation, which sharpened my communication skills and passion for sharing knowledge."
+    "heroBio": "MERN-stack engineer with 3+ years building high-traffic products in fintech, healthcare, and events. I've shipped platforms serving 10,000+ users, processing 1,000+ payments, and handling 500+ concurrent sessions — with measurable wins like 60% faster deploys, 40% less manual processing, and sub-200ms real-time bidding.",
+    "aboutBio": "B.Tech in Computer Science (ABES Engineering College, 2019). I've progressed from real-time auction systems at Globalvox to fintech architecture at Brainerhub — owning the full stack across React, Next.js, Node.js, Angular, and databases from MongoDB to PostgreSQL. I don't just write features: I've led frontend for healthcare and event products, integrated Stripe and Razorpay payment flows, built CI/CD pipelines that eliminated manual releases, and set PR standards that cut defects by 30% on a 4-engineer team. Strong in system design, API integration, and shipping under production pressure. I also run a technical YouTube channel — I believe great engineers communicate as clearly as they code."
   },
   "contact": {
     "location": "Ahmedabad, Gujarat",
@@ -25,7 +25,28 @@
       "url": "https://wa.me/+919997443874"
     }
   ],
-  "technologies": ["react", "nextjs", "nodejs", "mongodb", "mysql", "tailwind"],
+  "technologyCategories": [
+    {
+      "name": "Frontend",
+      "items": ["react", "nextjs", "angular", "html", "css", "tailwind"]
+    },
+    {
+      "name": "Backend",
+      "items": ["nodejs", "express", "kafka", "rabbitmq", "stripe", "razorpay"]
+    },
+    {
+      "name": "Databases",
+      "items": ["mongodb", "mysql", "postgres", "redis", "firebase", "neondb"]
+    },
+    {
+      "name": "DevOps",
+      "items": ["docker"]
+    },
+    {
+      "name": "Developer Tools",
+      "items": ["git", "postman", "jira", "bitbucket", "gitlens"]
+    }
+  ],
   "experiences": [
     {
       "year": "May 2025 – Present",
@@ -33,10 +54,10 @@
       "company": "Brainerhub Solutions",
       "location": "Ahmedabad, Gujarat",
       "highlights": [
-        "Architected an end-to-end fintech platform serving financial advisors across 3+ client portfolio tiers, reducing manual transaction processing time by 40%",
-        "Integrated Stripe payment gateway and DocuSign-style electronic signature, cutting document turnaround from days to under 2 hours",
-        "Launched a Next.js full-stack application with automated CI/CD pipeline, reducing deployment time by 60% and eliminating manual release errors",
-        "Consolidated API logic and database setup into a single Next.js codebase, decreasing cross-team onboarding time by 30%"
+        "Architected end-to-end fintech platform for financial advisors across 3+ client tiers — reduced manual transaction processing by 40%",
+        "Integrated Stripe payments and DocuSign-style e-signatures, cutting document turnaround from days to under 2 hours",
+        "Launched Next.js full-stack app with automated CI/CD — 60% faster deployments and zero manual release errors",
+        "Unified API and database layers into a single Next.js codebase, reducing new-hire onboarding time by 30%"
       ]
     },
     {
@@ -45,10 +66,10 @@
       "company": "Yudiz Solutions",
       "location": "Ahmedabad, Gujarat",
       "highlights": [
-        "Led frontend development of an event listing platform and admin portal, increasing admin task efficiency for 5+ concurrent event workflows",
-        "Delivered core features for Booklit ticketing platform — payment processing, analytics dashboards — supporting 1,000+ ticket transactions",
-        "Introduced automated barcode scanning for ticket validation, cutting check-in time by 50% and reducing queue wait times",
-        "Optimized server-side rendered event booking site with Next.js and React, improving page load speed by 35%"
+        "Led frontend for event listing platform and admin portal managing 5+ concurrent event workflows",
+        "Delivered payment processing, analytics dashboards, and ticketing for Booklit — 1,000+ transactions processed in production",
+        "Built barcode-based ticket validation, reducing event check-in time by 50% and eliminating entry queue bottlenecks",
+        "Improved SSR event booking site performance by 35% through Next.js and React optimization"
       ]
     },
     {
@@ -57,10 +78,10 @@
       "company": "Arsenaltech",
       "location": "Ahmedabad, Gujarat",
       "highlights": [
-        "Spearheaded frontend architecture for Bering Health patient portal, serving 10,000+ users with seamless React and Next.js experiences",
-        "Built multi-step patient onboarding flows with embedded video consultations, reducing drop-off rate by 25% and improving admin visibility",
-        "Implemented API integration layer using Redux Toolkit and custom React hooks, cutting state management bugs by 40%",
-        "Established code quality standards and PR review practices, reducing post-release defects by 30% across a team of 4 engineers"
+        "Led frontend architecture for Bering Health patient portal — 10,000+ active users on React and Next.js",
+        "Built multi-step onboarding with embedded video consultations — 25% lower drop-off and improved admin visibility",
+        "Engineered Redux Toolkit integration layer with custom hooks, reducing state-management bugs by 40%",
+        "Established PR review standards for a 4-engineer team, cutting post-release defects by 30%"
       ]
     },
     {
@@ -69,9 +90,9 @@
       "company": "Globalvox",
       "location": "Ahmedabad, Gujarat",
       "highlights": [
-        "Delivered full-stack development for Bigdeal auction platform and Bridge Invest financial portal, handling 500+ concurrent users",
-        "Designed core auction mechanics with member-exclusive workflows, enabling real-time bidding with sub-200ms transaction response times",
-        "Built a scalable Node.js backend with Redis caching and Socket.io, supporting live bid updates across 100+ simultaneous auction rooms"
+        "Shipped full-stack features for Bigdeal auction platform and Bridge Invest financial portal — 500+ concurrent users",
+        "Designed real-time auction engine with member-exclusive workflows and sub-200ms bid response times",
+        "Built Node.js backend with Redis caching and Socket.io, powering live bid updates across 100+ simultaneous auction rooms"
       ]
     }
   ],
@@ -79,7 +100,7 @@
     {
       "title": "Sales Dashboard",
       "imageKey": "project-1",
-      "description": "Developed a comprehensive admin dashboard for e-commerce operations, featuring real-time sales analytics, customer management, and transaction tracking with interactive data visualizations.",
+      "description": "End-to-end MERN admin dashboard for e-commerce — live sales KPIs, customer management, order tracking, and interactive charts in one place. Replaces scattered spreadsheets and gives operators instant visibility into revenue and customer behavior.",
       "technologies": ["React", "Node.js", "Express", "MongoDB"],
       "liveUrl": null
     }
