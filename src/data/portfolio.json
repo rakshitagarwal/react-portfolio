@@ -97,42 +97,42 @@
   ],
   "projects": [
     {
-      "title": "Sales Dashboard",
+      "title": "Blog App with Microservices",
       "imageKey": "project-1",
-      "description": "End-to-end MERN admin dashboard for e-commerce — live sales KPIs, customer management, order tracking, and interactive charts in one place. Replaces scattered spreadsheets and gives operators instant visibility into revenue and customer behavior.",
-      "technologies": ["React", "Node.js", "Express", "MongoDB"],
+      "description": "Production-ready blog platform built on microservices with RabbitMQ, Redis, PostgreSQL, MongoDB, and Docker. Implements event-driven cache invalidation, Google OAuth, and scalable service design. Deployed on AWS EC2 with clean architecture built for real-world performance.",
+      "technologies": ["React", "Node.js", "RabbitMQ", "Redis", "PostgreSQL", "Docker"],
       "liveUrl": null,
       "codeUrl": null
     },
     {
-      "title": "Sales Dashboard",
+      "title": "Spotify Clone",
       "imageKey": "project-2",
-      "description": "End-to-end MERN admin dashboard for e-commerce — live sales KPIs, customer management, order tracking, and interactive charts in one place. Replaces scattered spreadsheets and gives operators instant visibility into revenue and customer behavior.",
-      "technologies": ["React", "Node.js", "Express", "MongoDB"],
+      "description": "Full-stack music streaming platform using the MERN stack and PostgreSQL with a microservices backend. Covers user authentication, music playback, playlist management, and admin functionalities—designed for better performance, scalability, and a seamless listening experience.",
+      "technologies": ["React", "Node.js", "MongoDB", "PostgreSQL", "Express"],
       "liveUrl": null,
       "codeUrl": null
     },
     {
-      "title": "Sales Dashboard",
+      "title": "Microservices Chat App",
       "imageKey": "project-3",
-      "description": "End-to-end MERN admin dashboard for e-commerce — live sales KPIs, customer management, order tracking, and interactive charts in one place. Replaces scattered spreadsheets and gives operators instant visibility into revenue and customer behavior.",
-      "technologies": ["React", "Node.js", "Express", "MongoDB"],
+      "description": "Scalable real-time chat application built with the MERN stack, RabbitMQ, and microservices architecture. Supports OTP-based authentication and instant messaging across distributed services. Fully deployed on AWS for performance, reliability, and a smooth user experience.",
+      "technologies": ["React", "Node.js", "RabbitMQ", "MongoDB", "AWS"],
       "liveUrl": null,
       "codeUrl": null
     },
     {
-      "title": "Sales Dashboard",
+      "title": "Job Portal with Microservices",
       "imageKey": "project-4",
-      "description": "End-to-end MERN admin dashboard for e-commerce — live sales KPIs, customer management, order tracking, and interactive charts in one place. Replaces scattered spreadsheets and gives operators instant visibility into revenue and customer behavior.",
-      "technologies": ["React", "Node.js", "Express", "MongoDB"],
+      "description": "Microservices-based job portal with Apache Kafka powering inter-service communication. Features AI career guidance, resume analysis, recruiter workflows, email notifications, and multi-role registration. Includes subscription tiers, profile enhancements, and secure forgot/reset password flows.",
+      "technologies": ["React", "Node.js", "Kafka", "Microservices", "PostgreSQL"],
       "liveUrl": null,
       "codeUrl": null
     },
     {
-      "title": "Sales Dashboard",
-      "imageKey": "project-1",
-      "description": "End-to-end MERN admin dashboard for e-commerce — live sales KPIs, customer management, order tracking, and interactive charts in one place. Replaces scattered spreadsheets and gives operators instant visibility into revenue and customer behavior.",
-      "technologies": ["React", "Node.js", "Express", "MongoDB"],
+      "title": "Zomato Clone",
+      "imageKey": "project-5",
+      "description": "Food delivery platform inspired by Zomato, built with MERN and a microservice-based backend. Supports customers, restaurant owners, and delivery riders with dedicated dashboards, real-time order assignment, live map tracking, WebSockets, secure authentication, and payment integration.",
+      "technologies": ["React", "Node.js", "MongoDB", "WebSockets", "Leaflet"],
       "liveUrl": null,
       "codeUrl": null
     }

@@ -2,10 +2,11 @@ import content from "../data/portfolio.json";
 import profileImage from "../assets/main.png";
 import aboutImage from "../assets/secondary.jpg";
 import logoImage from "../assets/kevinRushLogo.png";
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/project1.jpg";
+import project2 from "../assets/project2.jpg";
+import project3 from "../assets/project3.png";
+import project4 from "../assets/project4.png";
+import project5 from "../assets/project5.png";
 import resumePdf from "../assets/cv/Rakshit_Agarwal.pdf";
 
 const imageMap = {
@@ -13,6 +14,7 @@ const imageMap = {
   "project-2": project2,
   "project-3": project3,
   "project-4": project4,
+  "project-5": project5,
 };
 
 export const PROFILE = content.profile;

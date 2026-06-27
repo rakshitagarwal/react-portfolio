@@ -50,7 +50,7 @@ const Hero = () => {
               animate="visible"
               href={RESUME.url}
               download={RESUME.fileName}
-              className="inline-flex items-center gap-2 rounded bg-purple-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-purple-800"
+              className="inline-flex mb-2 items-center gap-2 rounded bg-purple-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-purple-800"
             >
               Resume
               <FaDownload />
