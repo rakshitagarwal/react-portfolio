@@ -33,6 +33,19 @@ export const RESUME = {
   url: resumePdf,
   fileName: "Rakshit_Agarwal_Resume.pdf",
 };
+
+export const downloadResume = async () => {
+  const response = await fetch(RESUME.url);
+  const blob = await response.blob();
+  const url = window.URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = RESUME.fileName;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  window.URL.revokeObjectURL(url);
+};
 export const PROJECTS = content.projects.map((project) => ({
   ...project,
   image: project.imageKey ? imageMap[project.imageKey] ?? null : null,

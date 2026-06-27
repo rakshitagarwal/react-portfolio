@@ -1,4 +1,4 @@
-import { HERO_CONTENT, IMAGES, PROFILE, RESUME } from "../constants";
+import { HERO_CONTENT, IMAGES, PROFILE, downloadResume } from "../constants";
 import { FaDownload } from "react-icons/fa";
 import { motion } from "framer-motion";
 
@@ -44,17 +44,17 @@ const Hero = () => {
             >
               {HERO_CONTENT}
             </motion.p>
-            <motion.a
+            <motion.button
+              type="button"
               variants={container(1.2)}
               initial="hidden"
               animate="visible"
-              href={RESUME.url}
-              download={RESUME.fileName}
-              className="inline-flex mb-2 items-center gap-2 rounded bg-purple-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-purple-800"
+              onClick={downloadResume}
+              className="mb-2 inline-flex items-center gap-2 rounded bg-purple-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-purple-800"
             >
               Resume
               <FaDownload />
-            </motion.a>
+            </motion.button>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">

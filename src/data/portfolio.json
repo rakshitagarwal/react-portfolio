@@ -3,15 +3,16 @@
     "name": "Rakshit Agarwal",
     "title": "Full Stack Software Engineer",
     "initials": "RA",
-    "heroBio": "MERN-stack engineer with 3+ years building high-traffic products in fintech, healthcare, and events. I've shipped platforms serving 10,000+ users, processing 1,000+ payments, and handling 500+ concurrent sessions — with measurable wins like 60% faster deploys, 40% less manual processing, and sub-200ms real-time bidding.",
+    "heroBio": "Full-stack engineer with 3+ years building scalable SaaS products across fintech, healthcare, and enterprise domains. I've shipped multi-tenant platforms serving 10,000+ users, microservices with NATS and Kafka, and AI-powered features with Gemini — with wins like 60% faster deploys, 50% faster check-ins, and sub-200ms real-time bidding.",
     "aboutBio": [
-      "B.Tech in Computer Science (ABES Engineering College, 2019). I've progressed from real-time auction systems at Globalvox to fintech architecture at Brainerhub — owning the full stack across React, Next.js, Node.js, Angular, and databases from MongoDB to PostgreSQL.",
-      "I don't just write features: I've led frontend for healthcare and event products, integrated Stripe and Razorpay payment flows, built CI/CD pipelines that eliminated manual releases, and set PR standards that cut defects by 30% on a 4-engineer team. Strong in system design, API integration, and shipping under production pressure. I also run a technical YouTube channel — I believe great engineers communicate as clearly as they code."
+      "B.Tech in Computer Science (ABES Engineering College, 2019). I've grown from building real-time auction backends at Globalvox to engineering enterprise EHS/ESG and fintech SaaS at Brainerhub — working across React, Next.js, Node.js, microservices, and databases from MongoDB and Neo4j to PostgreSQL.",
+      "I build production systems end to end: API gateways, event-driven messaging with NATS, Stripe subscription billing, Gemini AI assistants, and CI/CD pipelines that cut deployment time by 60%. I've led frontend for healthcare and event products, reduced state-management bugs by 40%, and shipped real-time features with Socket.IO. I also run a technical YouTube channel — clear communication matters as much as clean code."
     ]
   },
   "contact": {
     "location": "Ahmedabad, Gujarat",
     "phone": "+91 9997443874",
+    "whatsappUrl": "https://wa.me/+919997443874",
     "email": "rakshit.agarwal@outlook.com"
   },
   "social": [
@@ -52,11 +53,27 @@
       "role": "Software Engineer",
       "company": "Brainerhub Solutions",
       "location": "Ahmedabad, Gujarat",
-      "highlights": [
-        "Architected end-to-end fintech platform for financial advisors across 3+ client tiers — reduced manual transaction processing by 40%",
-        "Integrated Stripe payments and DocuSign-style e-signatures, cutting document turnaround from days to under 2 hours",
-        "Launched Next.js full-stack app with automated CI/CD — 60% faster deployments and zero manual release errors",
-        "Unified API and database layers into a single Next.js codebase, reducing new-hire onboarding time by 30%"
+      "projects": [
+        {
+          "label": "Project 1",
+          "url": "https://prevsis.com/",
+          "highlights": [
+            "Engineering features for a multi-tenant enterprise SaaS platform spanning EHS, ESG, Risk, and Compliance management",
+            "Built distributed microservices behind an API gateway with a micro-frontend UI layer, using MongoDB and Neo4j",
+            "Integrated NATS as a low-latency messaging backbone for event-driven inter-service communication, improving throughput and decoupling services",
+            "Implemented real-time chat with Socket.IO and voice-input data sharing for instant, low-latency user responses"
+          ]
+        },
+        {
+          "label": "Project 2",
+          "url": "https://bluemind.app/",
+          "highlights": [
+            "Architected an end-to-end fintech SaaS application (Next.js full-stack) with automated CI/CD — cut deployment time by 60%",
+            "Integrated Gemini AI into an in-app assistant for instant summaries of pending work, task details, and client insights",
+            "Built Stripe subscription billing (Free / Pro / Team tiers) with Canada tax compliance and automated invoicing",
+            "Consolidated API and data layers into a unified Next.js codebase, reducing cross-team onboarding time by 30%"
+          ]
+        }
       ]
     },
     {
@@ -65,10 +82,9 @@
       "company": "Yudiz Solutions",
       "location": "Ahmedabad, Gujarat",
       "highlights": [
-        "Led frontend for event listing platform and admin portal managing 5+ concurrent event workflows",
-        "Delivered payment processing, analytics dashboards, and ticketing for Booklit — 1,000+ transactions processed in production",
-        "Built barcode-based ticket validation, reducing event check-in time by 50% and eliminating entry queue bottlenecks",
-        "Improved SSR event booking site performance by 35% through Next.js and React optimization"
+        "Led frontend development of an event-listing platform and admin portal, streamlining 5+ concurrent event workflows",
+        "Delivered payment processing and analytics dashboards for a ticketing platform — supported 1,000+ ticket transactions",
+        "Built automated barcode scanning for ticket validation, cutting check-in time by 50% and reducing queue wait times"
       ]
     },
     {
@@ -77,10 +93,9 @@
       "company": "Arsenaltech",
       "location": "Ahmedabad, Gujarat",
       "highlights": [
-        "Led frontend architecture for Bering Health patient portal — 10,000+ active users on React and Next.js",
-        "Built multi-step onboarding with embedded video consultations — 25% lower drop-off and improved admin visibility",
-        "Engineered Redux Toolkit integration layer with custom hooks, reducing state-management bugs by 40%",
-        "Established PR review standards for a 4-engineer team, cutting post-release defects by 30%"
+        "Led frontend architecture for the Bering Health patient portal, serving 10,000+ users with performant React/Next.js experiences",
+        "Built multi-step patient onboarding with embedded video consultations, reducing drop-off by 25%",
+        "Engineered an API integration layer using Redux Toolkit and custom React hooks, cutting state-management bugs by 40%"
       ]
     },
     {
@@ -89,9 +104,9 @@
       "company": "Globalvox",
       "location": "Ahmedabad, Gujarat",
       "highlights": [
-        "Shipped full-stack features for Bigdeal auction platform and Bridge Invest financial portal — 500+ concurrent users",
-        "Designed real-time auction engine with member-exclusive workflows and sub-200ms bid response times",
-        "Built Node.js backend with Redis caching and Socket.io, powering live bid updates across 100+ simultaneous auction rooms"
+        "Developed the backend for a real-time online auction platform, powering dynamic pricing and live bidding workflows",
+        "Designed core auction mechanics with member-exclusive workflows, enabling sub-200ms bid-transaction response times",
+        "Built a scalable Node.js backend with Redis caching and Socket.IO, supporting live bid updates across 100+ simultaneous auction rooms"
       ]
     }
   ],

@@ -1,6 +1,14 @@
 import { EXPERIENCES } from "../constants";
 import { motion } from "framer-motion";
 
+const ExperienceHighlights = ({ highlights }) => (
+  <ul className="mb-4 list-disc space-y-2 pl-5 text-neutral-400">
+    {highlights.map((highlight, index) => (
+      <li key={index}>{highlight}</li>
+    ))}
+  </ul>
+);
+
 const Experience = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
@@ -38,11 +46,25 @@ const Experience = () => {
                   {experience.company}
                 </span>
               </h6>
-              <ul className="mb-4 list-disc space-y-2 pl-5 text-neutral-400">
-                {experience.highlights.map((highlight, highlightIndex) => (
-                  <li key={highlightIndex}>{highlight}</li>
-                ))}
-              </ul>
+              {experience.projects ? (
+                <div className="space-y-6">
+                  {experience.projects.map((project, projectIndex) => (
+                    <div key={projectIndex}>
+                      <a
+                        href={project.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mb-2 inline-block text-sm font-medium text-purple-300 underline transition-colors hover:text-purple-200"
+                      >
+                        {project.label}
+                      </a>
+                      <ExperienceHighlights highlights={project.highlights} />
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <ExperienceHighlights highlights={experience.highlights} />
+              )}
             </motion.div>
           </div>
         ))}

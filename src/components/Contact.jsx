@@ -21,20 +21,23 @@ const Contact = () => {
         >
           {CONTACT.location}
         </motion.p>
-        <motion.p
+        <motion.a
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 1 }}
-          className="my-4"
+          href={CONTACT.whatsappUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="my-4 block transition-colors hover:text-cyan-400"
         >
           {CONTACT.phone}
-        </motion.p>
+        </motion.a>
         <motion.a
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: 20 }}
           transition={{ duration: 1 }}
           href={`mailto:${CONTACT.email}`}
-          className="border-b"
+          className="border-b transition-colors hover:text-cyan-400"
         >
           {CONTACT.email}
         </motion.a>
